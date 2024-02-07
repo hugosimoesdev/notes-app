@@ -19,7 +19,7 @@ export function App() {
       <div className="grid grid-cols-3 gap-6 auto-rows-[250px] overflow-hidden">
         <NewNoteCard />
 
-        <NoteCard />
+        <NoteCard content="Hello World!" date={new Date()} />
       </div>
     </div>
   );
