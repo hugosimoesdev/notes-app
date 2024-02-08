@@ -16,7 +16,7 @@ export function App() {
 
       <div className="h-px bg-slate-700" />
 
-      <div className="grid grid-cols-3 gap-6 auto-rows-[250px] overflow-hidden">
+      <div className="grid grid-cols-3 gap-6 auto-rows-[250px]">
         <NewNoteCard />
 
         <NoteCard content="Hello World!" date={new Date()} />

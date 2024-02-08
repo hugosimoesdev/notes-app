@@ -12,7 +12,7 @@ interface NoteCardProps {
 export function NoteCard(props: NoteCardProps) {
   return (
     <Dialog.Root>
-      <Dialog.Trigger className="rounded-md bg-slate-800 p-5 flex flex-col gap-3 overflow-hidden relative hover:ring-2 hover:ring-slate-600 focus-visible:ring-2 focus-visible:ring-lime-400">
+      <Dialog.Trigger className="rounded-md text-left bg-slate-800 flex flex-col p-5 gap-3 overflow-hidden relative hover:ring-2 hover:ring-slate-600 focus-visible:ring-2 focus-visible:ring-lime-400 outline-none">
         <span className="text-sm font-medium text-slate-200">
           {props.date.toISOString()}
         </span>
